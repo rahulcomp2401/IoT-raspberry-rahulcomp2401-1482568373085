@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-raspberry-rahulcomp2401
+  host: IoT-raspberry-rahulcomp2401
+  disk_quota: 1024M
+  services:
+  - IoT-raspberry-rahulcomp2401-cloudantNoSQLDB
+  - IoT-raspberry-rahulcomp2401-iotf-service
